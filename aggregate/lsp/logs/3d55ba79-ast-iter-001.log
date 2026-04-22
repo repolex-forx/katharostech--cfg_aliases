@@ -1,0 +1,7 @@
+[2026-04-22T19:40:32Z] === AST ITERATION 1 START | repo=katharostech/cfg_aliases sha=3d55ba79 ===
+[2026-04-22T19:40:32Z] [iter=1] PHASE START: ast repo=katharostech/cfg_aliases sha=3d55ba79
+[2026-04-22T19:40:32Z] [iter=1] Building AST aggregate chunks
+[2026-04-22T19:40:33Z] [iter=1] AST chunks built count=1 triples=7629
+[2026-04-22T19:40:33Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/3d55ba79872b61265a7176110a5200df0c9d9e54/.complete
+[2026-04-22T19:40:33Z] [iter=1] PHASE END: ast elapsed_s=1 elapsed_min=0.0
+[2026-04-22T19:40:33Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
