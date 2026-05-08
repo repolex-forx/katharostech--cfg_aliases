@@ -1,0 +1,16 @@
+[2026-05-08T02:33:43Z] === ENRICH ITERATION 3 START | repo=katharostech/cfg_aliases sha=3d55ba79 ===
+[2026-05-08T02:33:43Z] [iter=3] PHASE START: enrich repo=katharostech/cfg_aliases sha=3d55ba79 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/3d55ba79-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/3d55ba79872b61265a7176110a5200df0c9d9e54.nq.gz
+[2026-05-08T02:33:43Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-05-08T02:33:43Z] [iter=3] AST store loaded triples=7629 load_secs=0 mem_mb=94 MB
+[2026-05-08T02:33:43Z] [iter=3] Step 2: Finding LSP targets mem_mb=94 MB
+[2026-05-08T02:33:43Z] [iter=3] LSP targets found call_sites=1 imports=1 extends=0 implements=0 secs=0
+[2026-05-08T02:33:43Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=94 MB
+[2026-05-08T02:33:43Z] [iter=3] Position index built positions=577 nodes_with_types=579 secs=0 mem_mb=94 MB
+[2026-05-08T02:33:43Z] [iter=3] Step 3: Starting LSP resolution mem_mb=94 MB already_completed_types=[] already_completed_files=0
+[2026-05-08T02:33:43Z] [iter=3] Resolving target type target_type=call_site count=1
+[2026-05-08T02:33:51Z] [iter=3] Target type resolved target_type=call_site resolved=0 errors=1 secs=9 mem_mb=94 MB
+[2026-05-08T02:33:51Z] [iter=3] Resolving target type target_type=import_statement count=1
+[2026-05-08T02:33:56Z] [iter=3] Target type resolved target_type=import_statement resolved=1 errors=0 secs=5 mem_mb=94 MB
+[2026-05-08T02:34:01Z] [iter=3] Step 5: Writing final enrichment file triples=27
+[2026-05-08T02:34:01Z] [iter=3] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/3d55ba79872b61265a7176110a5200df0c9d9e54.nq.gz size_kb=0
+[2026-05-08T02:34:01Z] [iter=3] PHASE END: enrich elapsed_s=18 elapsed_min=0.3 total_triples=27
